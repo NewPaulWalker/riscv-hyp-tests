@@ -13,3 +13,6 @@ TEST_REGISTER(wfi_exception_tests);
 TEST_REGISTER(tinst_tests);
 TEST_REGISTER(apt_tests);
 TEST_REGISTER(tval_inst_tests);
+TEST_REGISTER(pmpcfg_exception_tests);
+TEST_REGISTER(custom_csr_exception_tests);
+TEST_REGISTER(aia_exception_tests);
