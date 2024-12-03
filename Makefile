@@ -39,7 +39,8 @@ c_srcs := main.c page_tables.c rvh_test.c interrupt_tests.c\
 	pmpcfg_tests.c\
 	custom_csr_tests.c\
 	aia_tests.c\
-	rva_trigger_tests.c \
+	rva_trigger.c \
+	smstateen_tests.c \
 	$(addprefix $(plat_dir)/, $(notdir $(wildcard $(plat_dir)/*.c)))
 asm_srcs := boot.S handlers.S  $(wildcard $(plat_dir)/*.S)
 ld_file:=linker.ld

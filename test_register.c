@@ -17,3 +17,4 @@ TEST_REGISTER(pmpcfg_exception_tests);
 TEST_REGISTER(custom_csr_exception_tests);
 TEST_REGISTER(aia_exception_tests);
 TEST_REGISTER(rva_trigger_tests);
+TEST_REGISTER(smstateen_exception_tests);
